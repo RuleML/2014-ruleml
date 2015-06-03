@@ -1,5 +1,10 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^2014\.ruleml\.org$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.2014\.ruleml\.org$
-RewriteRule ^(.*)$ "http\:\/\/ruleml2014\.vse\.cz\/$1" [R=301,L]
 
+RewriteEngine On
+            
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*)\.html$ - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*)$ $1.html [L]

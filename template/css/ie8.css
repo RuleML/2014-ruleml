@@ -1,0 +1,19 @@
+header.page h1{
+    color: white;
+    filter:none;
+}
+header.page div.name{
+    color: white;
+    filter:none;
+}
+
+div#left{
+    border-right: 1px solid #e1e1e1;
+}
+footer.page{
+    border-top: 1px solid #e1e1e1;
+}
+body{
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+}

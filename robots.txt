@@ -1,0 +1,5 @@
+User-agent: *
+Sitemap: http://2014.ruleml.org/sitemap.xml
+Disallow: /media/
+Disallow: /template/
+
